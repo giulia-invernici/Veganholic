@@ -50,8 +50,13 @@ h2 {
 
 h3 {
 	color: white;
+	text-align: center;
 }
 
+h5 {
+	color: black;
+	text-align: center;
+}
 
 .float-right{
 	float: right;
