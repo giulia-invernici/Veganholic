@@ -61,6 +61,47 @@ a {
 	color: white;
 }
 
+.btn-black {
+	background-color: black;
+	color: white;
+	padding: 10px 30px;
+	margin-right: 5px;
+	border-radius: 40px;
+	font-weight: lighter;
+	font-size: 15px;
+	display: inline;
+}
+
+/*Orange buttons fro filter price*/
+
+.btn-orange {
+	background-color: rgb(240, 240, 240);
+	color: black;
+	padding: 10px 10px;
+	margin-right: 5px;
+	border-radius: 40px;
+	font-weight: lighter;
+	font-size: 9px;
+	display: inline;
+	
+}
+
+.btn-orange:hover {
+	background-color: #E37D5F;
+	color: white;
+}
+
+.btn-orange-black {
+	background-color: black;
+	color: white;
+	padding: 10px 10px;
+	margin-right: 5px;
+	border-radius: 40px;
+	font-weight: lighter;
+	font-size: 9px;
+	display: inline;
+}
+
 /* Social media buttons */
 
 .btn-inline {
