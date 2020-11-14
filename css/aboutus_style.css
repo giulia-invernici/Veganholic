@@ -80,6 +80,10 @@ h3 {
 	color: black;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* Reb button sign in/register on the main page */
 
 .btn-register {
