@@ -1,16 +1,9 @@
-/*container of dishes choice*/
 .container {
-	width: 700px;
+  width: 700px;
 	margin: 2px auto;
 }
 
-/*container for filter price*/
-.container-bis {
-	width: 500px;
-	margin: 2px auto;
-}
-
-/*responsive design*/
+/* Responsive design */
 
 @media (max-width: 960px) {
   .container {

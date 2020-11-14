@@ -13,7 +13,7 @@ a {
 
 /* Home page */
 
-/*white button of the green banner */
+/* White buttons of the green banner */
 
 .btn-white {
 	color: white;
@@ -49,7 +49,7 @@ a {
 	background-color: rgb(240, 240, 240);
 	color: black;
 	padding: 10px 30px;
-	margin-right: 5px;
+	margin-right: 10px;
 	border-radius: 40px;
 	font-weight: lighter;
 	font-size: 15px;
@@ -59,47 +59,6 @@ a {
 .btn-grey:hover {
 	background-color: black;
 	color: white;
-}
-
-.btn-black {
-	background-color: black;
-	color: white;
-	padding: 10px 30px;
-	margin-right: 5px;
-	border-radius: 40px;
-	font-weight: lighter;
-	font-size: 15px;
-	display: inline;
-}
-
-/*Orange buttons fro filter price*/
-
-.btn-orange {
-	background-color: rgb(240, 240, 240);
-	color: black;
-	padding: 10px 10px;
-	margin-right: 5px;
-	border-radius: 40px;
-	font-weight: lighter;
-	font-size: 9px;
-	display: inline;
-	
-}
-
-.btn-orange:hover {
-	background-color: #E37D5F;
-	color: white;
-}
-
-.btn-orange-black {
-	background-color: black;
-	color: white;
-	padding: 10px 10px;
-	margin-right: 5px;
-	border-radius: 40px;
-	font-weight: lighter;
-	font-size: 9px;
-	display: inline;
 }
 
 /* Social media buttons */
@@ -206,3 +165,13 @@ a {
 .btn-column a:hover {
 	color: black;
 }
+
+
+
+
+
+
+
+
+
+

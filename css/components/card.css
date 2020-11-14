@@ -1,4 +1,4 @@
-/*all dishes cards*/
+/* All dishes cards */
 
 .cards {
 	display: flex;
@@ -6,7 +6,7 @@
 	flex-wrap: wrap;
 }
 
-/*single card*/
+/* Single dish card */
 
 .card {
 	padding: 10px;
@@ -113,5 +113,25 @@
 	font-size: 20px;
 	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
