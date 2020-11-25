@@ -61,3 +61,47 @@ h5 {
 .float-right{
 	float: right;
 }
+
+.foodName{
+	margin-top: 80px;
+	margin-left: 80px;
+	margin-right: 80px
+}
+
+.foodQuantity{
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-color: lightgray;
+	color: black;
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+
+.foodName1{
+	float: left;
+	padding-left: 15px;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+.foodNewPrice{
+	float: left;
+	padding-left: 15px;
+	font-size: 20px;
+	margin-top: 0px
+}
+
+.foodOldPrice{
+	float:left;
+	padding-left: 15px;
+	font-size: 20px;
+	margin-top:0px;
+	text-decoration: line-through;
+}
+
+.promotionCode{
+	  clear: both;
+	height: 100px;
+}
