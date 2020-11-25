@@ -192,3 +192,21 @@ h5 {
 	font-size: 20px; 
 	padding-top: 5px;
 }
+
+.gotohomepage{
+	float: left; 
+	color:#E37D5F; 
+	margin-left: 80px; 
+	margin-right: 80px; 
+	border: none; 
+	background-color:white;
+}
+
+.leaveareview {
+	float: right; 
+	color:#E37D5F; 
+	margin-left: 80px; 
+	margin-right: 80px; 
+	border: none;
+	background-color:white;
+}
