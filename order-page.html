@@ -1,5 +1,5 @@
 
-
+<html>
 <head>
 		<title> Veganholic </title>
 		<meta name="description" content="This is the website page of Veganholic">
@@ -10,30 +10,20 @@
 	
 
 <body>
-	<div>
-
-			<div class="banner-white">
-				<a href="index.html"> <img src="images/veganholic-logo.png" alt="Veganholic's logo" class="btn-logo"> </a>
-				<a href="signin.html" class="btn-register"> Sign in / Register </a>
+	 <div id="container" style="width:1000px;margin:0 auto">
+	 	<div class="banner-white">
+				<a href="login-index.html"> <img src="images/veganholic-logo.png" alt="Veganholic's logo" class="btn-logo"> </a>
+				<img class="avatar" src="images/avatar-victoria.png">
 			</div>
 
 			<div class="banner-green">
 				<div class="container">
-					<a href="index.html" class="btn-white"> Homepage </a>
-					<div class="dropdown">
-  						<button class="dropbtn"> Products </button>
-  						<div class="dropdown-content">
-   							<a href="menu-page.html"> Starters </a>
-    							<a href="menu-page.html"> Main dishes </a>
-    							<a href="menu-page.html"> Side dishes </a>
-    							<a href="menu-page.html"> Desserts </a>
-    							<a href="menu-page.html"> Beverages </a>
-  						</div>
-					</div>
-					<a href="aboutus.html" class="btn-white"> About us </a>
-					<a href="whyvegan.html" class="btn-white"> Why should you be vegan? </a>
-					<a href="news.html" class="btn-white"> News </a>
-					<a href="index.html" class="btn-white"> Contact us </a>
+					<a href="#" class="btn-white"> Homepage </a>
+					<a href="#" class="btn-white"> About us </a>
+					<a href="#" class="btn-white"> Why should you be vegan? </a>
+					<a href="#" class="btn-white"> News </a>
+					<a href="#" class="btn-white"> Buy giftcards </a>
+					<a href="#" class="btn-white"> Contact us </a>
 				</div>
 			</div>	
 
@@ -44,86 +34,87 @@
 
 	 <div>
 	 	<h1>Your shopping card</h1>
-	 	<a class="float-right" href="index.html"> Add more dishes </a>
-		 </div>
-		 
-	  <div id="foodName">
-	 	<button id="foodQuantity">2</button>
-	 	<p id="foodName1" > Vegan greek cheekpeas nachos </p>
-	 	<p id="foodNewPrice"> 8.4£ </p>
-	 		<p id="foodOldPrice"> 14.20£ </p>
+	 	<a class="float-right" href="./product-page.html">Add more dishes </a>
 	 </div>
-		 
-<hr>
-		 
+
+	 <div id="foodName">
+	 	<p id="foodQuantity">2</p>
+	 	<p id="foodName1" >    Vegan greek cheekpeas nachos </p>
+	 	<p id="foodNewPrice"> 8.4£ </p>
+	 	<p id="foodOldPrice"> 14.20£ </p>
+	 </div>
+<hr id="line">
 <div id="promotionCode">
 	<button id="addpromotioncode"> Add a promotion code </button>
 </div>
 <hr>
-<div class="container_swap">
-	<div id="rightLeftDiv">
-		<div class="banner-white">
-			<img class="banner" src="images/london_map.png">
-		</div>
-	<div>
-		<h4> Subtotal: 8.40£ </h4>
-		<h4> Fees: </h4>
-		<ul>
-			<li>
-				<h5>Service: 0.69£</h5>
-			</li>
-			<li>
-				<h5>Delivery: 0.99£</h5>
-			</li>
-		</ul>
-		<h4> Total: 10.08£ </h4>
-	</div>
-</div>
-<div class="rightLeftDiv">
-	<div id="box1"> 
-	  <p id="roadname"> Victoria Adams </p>
-	  <p id="address">
-	  	"London, 61 bridge street, Kingston, HD5 DJ. Second floor, first door on the right"
-	  </p>
-	</div>
 
 
-	<div id="box11">
-		<p id="address"> Delivery time: 25 to 35 min </p>
-	</div>
 
-	<div id="box2">
-		<p id="Deliveryoption"> Delivery options: </p>
-	<div id="box3">
-		<button class="hoverButton"> In front of the door </button>
-		<button class="hoverButton"> Meeting at the door </button>
-	</div>
-</div>
+<div id="container_swap">
+        <div id="lowerLeft">
+            <div id="banner-white" >
+                <img id="googleImage" src="images/london_map.png" ></div>
+            <div>
+                <h4> Subtotal: 8.40£ </h4>
+                <h4> Fees: </h4>
+                <ul>
+                    <li>
+                        <h5>Service: 0.69£</h5>
+                    </li>
+                    <li>
+                        <h5>Delivery: 0.99£</h5>
+                    </li>
+                </ul>
+                <h4> Total: 10.08£ </h4>
+            </div>
+        </div>
 
 
-<div id="box2">
-		<p id="Deliveryoption"> Payment options: </p>
-	<div id="box4">
-	<button class="hoverButton2"> Cash </button>
-	<button class="hoverButton2"> Card </button>
-	</div>
+        <div id="lowerRight">
+            <div class="box1">
+                <p id="roadname"> Victoria Adams </p>
+                <p id="address">
+                    "London, 61 bridge street, Kingston, HD5 DJ. Second floor, first door on the right"
+                </p>
+            </div>
+
+            <div id="box11">
+                <p id="address1"> Delivery time: 25 to 35 min </p>
+            </div>
+
+            <div id="box2">
+                <p id="Deliveryoption"> Delivery options: </p>
+                <div id="box3">
+                    <button class="hoverButton"> In front of the door </button>
+                    <button class="hoverButton"> Meeting at the door </button>
+                </div>
+            </div>
+
+
+            <div id="box23">
+                <p id="Deliveryoption1"> Payment options: </p>
+                <div id="box4">
+                    <button class="hoverButton2"> Cash </button>
+                    <button class="hoverButton2"> Card </button>
+                </div>
+            </div>
+    </div>
 </div>
 </div>
-</div>
-</div>
-</div>
+
+<div class="orderValue">
 <a href="./thankyoupage.html">
-<div id="order_final">
-	<p id="ordervalue"> 
-		Order: 10.08£
-
-	 </p>
-</div>
+    <div id="order_final">
+        <p id="ordervalue" >
+            Order: 10.08£
+        </p>
+    </div>
 </a>
 </div>
 
 </body>
-
+</html>
 
 
 
